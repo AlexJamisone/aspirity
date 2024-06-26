@@ -32,6 +32,9 @@ const config: Config = {
 			padding: {
 				'grid-x': '213px',
 			},
+			spacing: {
+				base: '10px',
+			},
 			backgroundImage: {
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 				'gradient-conic':

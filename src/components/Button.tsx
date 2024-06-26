@@ -15,7 +15,7 @@ const buttonVariants = cva(
 			},
 			isIcon: {
 				true: 'p-2',
-				false: 'px-4 py-[10px]',
+				false: 'px-4 py-base',
 			},
 		},
 		defaultVariants: {
