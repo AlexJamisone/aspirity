@@ -9,7 +9,7 @@
 ## TODO list
 
 -   [x] -   Download all assets and make from them component
--   [ ] -   Create base theme
+-   [x] -   Create base theme
 -   [ ] -   Make base reuse components
 -   [ ] -   Make header via responsive
 -   [ ] -   User card /w tab

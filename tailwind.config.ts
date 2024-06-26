@@ -13,14 +13,16 @@ const config: Config = {
                 'secodary': "#232324",
                 'modal': "#303030",
                 'accent': "#0047BB",
+                'accent-hov': "#003182",
+                'accent-focuse': "#4c7ecf",
                 'static-green': "#25824F",
                 'static-red': "#DB4546",
                 'static-orange': "#FFB649",
                 'tertiary': "#202021",
 
-                'text-primary': "#E1E3E6",
-                'text-secondary': "#B0B1B6",
-                'text-tertiary': "#76787A",
+                'primary-txt': "#E1E3E6",
+                'secondary-txt': "#B0B1B6",
+                'tertiary-txt': "#76787A",
 
             },
             fontFamily: {

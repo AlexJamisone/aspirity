@@ -1,9 +1,10 @@
+import Button from "@/components/Button";
 import Layout from "./_ui/Layout";
 
 export default function Home() {
     return (
         <Layout>
-            Let's go
+            <Button>let's go</Button>
         </Layout>
     )
 }
