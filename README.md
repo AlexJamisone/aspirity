@@ -8,7 +8,7 @@
 
 ## TODO list
 
--   [ ] -   Download all assets and make from them component
+-   [x] -   Download all assets and make from them component
 -   [ ] -   Create base theme
 -   [ ] -   Make base reuse components
 -   [ ] -   Make header via responsive
