@@ -1,3 +1,9 @@
+import Layout from "./_ui/Layout";
+
 export default function Home() {
-	return <main className="flex items-center justify-center"></main>;
+    return (
+        <Layout>
+            Let's go
+        </Layout>
+    )
 }
