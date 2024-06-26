@@ -20,6 +20,7 @@ const config: Config = {
 				'static-red': '#DB4546',
 				'static-orange': '#FFB649',
 				tertiary: '#202021',
+				'prime-bord': '#363738',
 
 				'primary-txt': '#E1E3E6',
 				'secondary-txt': '#B0B1B6',
