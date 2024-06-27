@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import arrow from '../../../public/arrow.svg';
 import burger from '../../../public/burger.svg';
+import Arrow from '@/components/icons/Arrow';
 
 export default function Header() {
 	return (
@@ -22,7 +23,7 @@ export default function Header() {
 						variant="ghost"
 						className="size-6 px-[5px] py-2"
 					>
-						<Image src={arrow} alt="arrow" />
+						<Arrow className="fill-primary-txt" />
 					</Button>
 				</div>
 				<Button variant="ghost" className="relative size-10 p-2">

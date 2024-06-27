@@ -3,7 +3,7 @@ import { cva, VariantProps } from 'class-variance-authority';
 import { type ButtonHTMLAttributes, forwardRef } from 'react';
 
 const buttonVariants = cva(
-	'uppercase font-semibold text-sm rounded flex gap-2 transition items-center focus:outline-none disabled:cursor-not-allowed disabled:text-primary-txt',
+	'uppercase w-fit font-semibold text-sm rounded flex gap-2 transition items-center focus:outline-none disabled:cursor-not-allowed disabled:text-primary-txt',
 	{
 		variants: {
 			variant: {
