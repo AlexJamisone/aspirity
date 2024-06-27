@@ -3,6 +3,7 @@ import StaticticStick from '@/components/StaticticStick';
 import Text from '@/components/Text';
 import { staticticData } from '@/constant/statictic';
 import { useStatictic } from '@/store/useStatictic';
+import { staticGenerationAsyncStorage } from 'next/dist/client/components/static-generation-async-storage-instance';
 
 export default function Chart() {
 	const totalDays = staticticData.reduce(
@@ -30,8 +31,8 @@ export default function Chart() {
 			<div className="relative size-fit min-h-fit min-w-fit">
 				<svg
 					xmlns="http://www.w3.org/2000/svg"
-					width="160"
-					height="160"
+					width="140"
+					height="140"
 					fill="none"
 					viewBox="-10 -10 180 180"
 				>
@@ -64,8 +65,11 @@ export default function Chart() {
 					})}
 				</svg>
 				<div className="absolute inset-0 flex flex-col items-center justify-center">
-					<Text className="text-center" as="h4" variant="h4">
-						{totalDays}
+					<Text className="text-center " as="h4" variant="h4">
+						{staticticData
+							.find((segment) => segment.type === type)
+							?.value.toString() ??
+							staticticData[0].value.toString()}
 					</Text>
 					<Text as="span" className="text-tertiary-txt">
 						дня

@@ -4,7 +4,9 @@ export default function Card({
 	className,
 }: React.PropsWithChildren & { className?: string }) {
 	return (
-		<section className={cn('rounded-xl bg-secodary', className)}>
+		<section
+			className={cn('overflow-hidden rounded-xl bg-secodary', className)}
+		>
 			{children}
 		</section>
 	);
