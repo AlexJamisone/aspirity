@@ -3,6 +3,7 @@ export default function Logo() {
 		<svg
 			width="180"
 			height="40"
+			className="h-[30px] w-[135px] md:h-[40px] md:w-[180px]"
 			viewBox="0 0 180 40"
 			fill="none"
 			xmlns="http://www.w3.org/2000/svg"
