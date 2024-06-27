@@ -11,7 +11,7 @@ export default function Tab({
 	const isActive = pathname === props.href;
 	return (
 		<Link
-			className={`m-0 flex gap-2 px-4 py-base text-sm font-semibold uppercase text-primary-txt ${isActive ? 'border-b-2 border-accent' : 'border-b border-prime-bord'}`}
+			className={`m-0 flex gap-2 px-4 py-base text-sm font-semibold uppercase ${isActive ? 'border-b-2 border-accent text-secondary-txt' : 'border-b border-prime-bord text-primary-txt'}`}
 			{...props}
 		>
 			{children}
