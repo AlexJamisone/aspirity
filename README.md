@@ -10,7 +10,7 @@
 
 -   [x] -   Download all assets and make from them component
 -   [x] -   Create base theme
--   [ ] -   Make base reuse components
+-   [x] -   Make base reuse components
 -   [ ] -   Make header via responsive
 -   [ ] -   User card /w tab
 -   [ ] -   Statistci card
