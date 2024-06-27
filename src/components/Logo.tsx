@@ -7,7 +7,7 @@ export default function Logo() {
 			viewBox="0 0 180 40"
 			xmlns="http://www.w3.org/2000/svg"
 		>
-			<g clip-path="url(#clip0_1_1548)">
+			<g clipPath="url(#clip0_1_1548)">
 				<path
 					fillRule="evenodd"
 					clipRule="evenodd"

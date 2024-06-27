@@ -2,6 +2,7 @@ import Button from '@/components/Button';
 import Layout from './_ui/Layout';
 import Arrow from '@/components/icons/Arrow';
 import UserProfile from './_ui/UserProfile';
+import StaticProfile from './_ui/StaticProfile';
 
 export default function Home() {
 	return (
@@ -11,6 +12,7 @@ export default function Home() {
 				Вернуться к сотруднику
 			</Button>
 			<UserProfile />
+			<StaticProfile />
 		</Layout>
 	);
 }
