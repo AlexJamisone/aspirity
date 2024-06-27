@@ -3,13 +3,12 @@ import Button from '@/components/Button';
 import Logo from '@/components/Logo';
 import Image from 'next/image';
 import Link from 'next/link';
-import arrow from '../../../public/arrow.svg';
 import burger from '../../../public/burger.svg';
 import Arrow from '@/components/icons/Arrow';
 
 export default function Header() {
 	return (
-		<header className="flex w-full justify-between px-4 py-6 md:px-0">
+		<header className="flex w-full justify-between px-4 py-6 xl:px-[213px]">
 			<Link href="/" className="relative h-10 w-[180px]">
 				<Logo />
 			</Link>
