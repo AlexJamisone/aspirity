@@ -13,7 +13,7 @@ export default function Home() {
 				Вернуться к сотруднику
 			</Button>
 			<UserProfile />
-			<div className="flex gap-4">
+			<div className="flex flex-col gap-4 xl:flex-row">
 				<StaticProfile />
 				<TabelProfile />
 			</div>

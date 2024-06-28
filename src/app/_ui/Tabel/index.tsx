@@ -3,7 +3,7 @@ import TabelHeader from './TabelHeader';
 
 export default function Tabel() {
 	return (
-		<table className="w-full ">
+		<table className="hidden xl:table">
 			<TabelHeader />
 			<TabelBody />
 		</table>
