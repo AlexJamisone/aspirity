@@ -6,6 +6,7 @@ import Button from '@/components/Button';
 import Arrow from '@/components/icons/Arrow';
 import UserProfile from './_ui/UserProfile';
 import Layout from './_ui/Layout';
+import { Suspense } from 'react';
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
@@ -25,7 +26,9 @@ export default function RootLayout(props: { children: React.ReactNode }) {
 					<UserProfile />
 					{props.children}
 				</Layout>
-				<Modal />
+				<Suspense fallback={'Load modal'}>
+					<Modal />
+				</Suspense>
 			</body>
 		</html>
 	);
