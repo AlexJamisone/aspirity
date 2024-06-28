@@ -3,6 +3,7 @@ import Layout from './_ui/Layout';
 import Arrow from '@/components/icons/Arrow';
 import UserProfile from './_ui/UserProfile';
 import StaticProfile from './_ui/StaticProfile';
+import TabelProfile from './_ui/TabelProfile';
 
 export default function Home() {
 	return (
@@ -12,7 +13,10 @@ export default function Home() {
 				Вернуться к сотруднику
 			</Button>
 			<UserProfile />
-			<StaticProfile />
+			<div className="flex gap-4">
+				<StaticProfile />
+				<TabelProfile />
+			</div>
 		</Layout>
 	);
 }
